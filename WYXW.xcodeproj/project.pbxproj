@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		223EC489208F5DCB0060B049 /* LruQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 223EC488208F5DCB0060B049 /* LruQueue.m */; };
 		22EDE47C208ACA7E00548421 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EDE47B208ACA7E00548421 /* AppDelegate.m */; };
 		22EDE47F208ACA7F00548421 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EDE47E208ACA7F00548421 /* ViewController.m */; };
 		22EDE482208ACA7F00548421 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22EDE480208ACA7F00548421 /* Main.storyboard */; };
@@ -15,6 +16,10 @@
 		22EDE48A208ACA7F00548421 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EDE489208ACA7F00548421 /* main.m */; };
 		22EDE494208ACA7F00548421 /* WYXWTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EDE493208ACA7F00548421 /* WYXWTests.m */; };
 		22EDE49F208ACA7F00548421 /* WYXWUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EDE49E208ACA7F00548421 /* WYXWUITests.m */; };
+		22EDE4B2208B116E00548421 /* MyCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EDE4B0208B116E00548421 /* MyCellTableViewCell.m */; };
+		22EDE4B3208B116E00548421 /* MyCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22EDE4B1208B116E00548421 /* MyCellTableViewCell.xib */; };
+		22EDE4B7208B1EEB00548421 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 22EDE4B6208B1EEA00548421 /* 1.jpeg */; };
+		22EDE4D6208E0F2200548421 /* Image.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22EDE4D5208E0F2200548421 /* Image.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		223EC487208F5DCB0060B049 /* LruQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LruQueue.h; sourceTree = "<group>"; };
+		223EC488208F5DCB0060B049 /* LruQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LruQueue.m; sourceTree = "<group>"; };
 		22EDE477208ACA7E00548421 /* WYXW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYXW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22EDE47A208ACA7E00548421 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		22EDE47B208ACA7E00548421 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +58,11 @@
 		22EDE49A208ACA7F00548421 /* WYXWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYXWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22EDE49E208ACA7F00548421 /* WYXWUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYXWUITests.m; sourceTree = "<group>"; };
 		22EDE4A0208ACA7F00548421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22EDE4AF208B116E00548421 /* MyCellTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCellTableViewCell.h; sourceTree = "<group>"; };
+		22EDE4B0208B116E00548421 /* MyCellTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCellTableViewCell.m; sourceTree = "<group>"; };
+		22EDE4B1208B116E00548421 /* MyCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCellTableViewCell.xib; sourceTree = "<group>"; };
+		22EDE4B6208B1EEA00548421 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpeg; path = ../../../Downloads/1.jpeg; sourceTree = "<group>"; };
+		22EDE4D5208E0F2200548421 /* Image.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Image.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +90,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		223EC486208F5D660060B049 /* LRU */ = {
+			isa = PBXGroup;
+			children = (
+				223EC487208F5DCB0060B049 /* LruQueue.h */,
+				223EC488208F5DCB0060B049 /* LruQueue.m */,
+			);
+			path = LRU;
+			sourceTree = "<group>";
+		};
 		22EDE46E208ACA7E00548421 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +122,9 @@
 		22EDE479208ACA7E00548421 /* WYXW */ = {
 			isa = PBXGroup;
 			children = (
+				223EC486208F5D660060B049 /* LRU */,
+				22EDE4B6208B1EEA00548421 /* 1.jpeg */,
+				22EDE4AE208B112A00548421 /* MyCell */,
 				22EDE47A208ACA7E00548421 /* AppDelegate.h */,
 				22EDE47B208ACA7E00548421 /* AppDelegate.m */,
 				22EDE47D208ACA7E00548421 /* ViewController.h */,
@@ -109,6 +133,7 @@
 				22EDE483208ACA7F00548421 /* Assets.xcassets */,
 				22EDE485208ACA7F00548421 /* LaunchScreen.storyboard */,
 				22EDE488208ACA7F00548421 /* Info.plist */,
+				22EDE4D5208E0F2200548421 /* Image.plist */,
 				22EDE489208ACA7F00548421 /* main.m */,
 			);
 			path = WYXW;
@@ -130,6 +155,16 @@
 				22EDE4A0208ACA7F00548421 /* Info.plist */,
 			);
 			path = WYXWUITests;
+			sourceTree = "<group>";
+		};
+		22EDE4AE208B112A00548421 /* MyCell */ = {
+			isa = PBXGroup;
+			children = (
+				22EDE4AF208B116E00548421 /* MyCellTableViewCell.h */,
+				22EDE4B0208B116E00548421 /* MyCellTableViewCell.m */,
+				22EDE4B1208B116E00548421 /* MyCellTableViewCell.xib */,
+			);
+			path = MyCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +229,9 @@
 		22EDE46F208ACA7E00548421 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					My,
+				);
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "刘冠中";
 				TargetAttributes = {
@@ -239,7 +277,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				22EDE487208ACA7F00548421 /* LaunchScreen.storyboard in Resources */,
+				22EDE4B7208B1EEB00548421 /* 1.jpeg in Resources */,
+				22EDE4B3208B116E00548421 /* MyCellTableViewCell.xib in Resources */,
 				22EDE484208ACA7F00548421 /* Assets.xcassets in Resources */,
+				22EDE4D6208E0F2200548421 /* Image.plist in Resources */,
 				22EDE482208ACA7F00548421 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +307,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				22EDE47F208ACA7F00548421 /* ViewController.m in Sources */,
+				223EC489208F5DCB0060B049 /* LruQueue.m in Sources */,
+				22EDE4B2208B116E00548421 /* MyCellTableViewCell.m in Sources */,
 				22EDE48A208ACA7F00548421 /* main.m in Sources */,
 				22EDE47C208ACA7E00548421 /* AppDelegate.m in Sources */,
 			);
@@ -433,6 +476,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P878UE7Y85;
 				INFOPLIST_FILE = WYXW/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bitnp.WYXW;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,6 +491,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P878UE7Y85;
 				INFOPLIST_FILE = WYXW/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bitnp.WYXW;
 				PRODUCT_NAME = "$(TARGET_NAME)";
